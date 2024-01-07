@@ -1,4 +1,4 @@
-import React from 'react' // 👈 we'll need the reducer hook
+import React from 'react' // 👈 you'll need the reducer hook
 
 // 👇 these are the types of actions that can change state
 const CHANGE_INPUT = 'CHANGE_INPUT'
