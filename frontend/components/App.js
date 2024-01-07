@@ -35,7 +35,7 @@ const quotes = [
 // 👇 create your initial state object here
 
 const reducer = (state, action) => {
-  //  👇 implement your reducer here using the action types above
+  // 👇 implement your reducer here using the action types above
 }
 
 export default function App() {
