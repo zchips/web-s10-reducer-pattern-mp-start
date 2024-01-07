@@ -1,21 +1,28 @@
-import React from 'react'
+import React from 'react' // 👈 we'll need the reducer hook
 
+// 👇 these are the types of actions that can change state
 const CHANGE_INPUT = 'CHANGE_INPUT'
 const RESET_FORM = 'RESET_FORM'
 
+// 👇 create your initial state object here
+
+// 👇 create your reducer function here
+
 export default function TodoForm({ createQuote = () => { } }) {
+  // 👇 use the reducer hook to spin up state and dispatch
 
   const onChange = () => {
-
+    // 👇 implement
   }
   const resetForm = () => {
-
+    // 👇 implement
   }
   const onNewQuote = () => {
-
+    // 👇 implement
     resetForm()
   }
 
+  // 👇 some props are missing in the JSX below:
   return (
     <form id="quoteForm" onSubmit={onNewQuote}>
       <h3>New Quote Form</h3>
